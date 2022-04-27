@@ -7,7 +7,7 @@ function About() {
             <Container>
                 <Row>
                     <Col style={{ padding: '25px'}}>
-                        <h1>&nbsp;About Us</h1>
+                        <h1>About Us</h1>
                     </Col>
                 </Row>  
                 <Row>

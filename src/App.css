@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .Navbar {
     background-color: #000807;
 }
@@ -10,14 +12,9 @@
     color: #A2A3BB !important;
 }
 
-/* .footer {
-    margin-top: 1rem;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-} */
+body {
+    font-family: 'Raleway', sans-serif;
+}
 
 
 

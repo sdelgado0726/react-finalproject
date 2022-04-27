@@ -51,7 +51,7 @@ function ProductForm() {
   
     return (
       <>
-      <h1 style={{padding: '20px', backgroundColor: '#B2ABBF', margin:'auto'}}>&nbsp;&nbsp;&nbsp;&nbsp;Create New Product</h1>
+      <h1 style={{padding: '20px', backgroundColor: '#B2ABBF', margin:'auto'}}>&nbsp;&nbsp;&nbsp;&nbsp;Create New A Product</h1>
       <Form onSubmit={handleSubmit} style={{padding: '55px', paddingLeft: '60px', paddingRight: '60px', backgroundColor: '#B2ABBF'}}>
         <Form.Group className="mb-3" >
           <Form.Label>Product Name</Form.Label>
@@ -71,7 +71,7 @@ function ProductForm() {
         </Form.Group>
         <Form.Group className="mb-3" >
           <Form.Label>Image Url</Form.Label>
-          <Form.Control type="text" name="imgUrl" value={imageUrl} placeholder="type an image URL" onChange={handleChange} />
+          <Form.Control type="text" name="imageUrl" value={imageUrl} placeholder="type an image URL" onChange={handleChange} />
         </Form.Group>
         <Button type="submit" style={{backgroundColor: '#000807', color: '#A2A3BB'}}>Save</Button>
       </Form>

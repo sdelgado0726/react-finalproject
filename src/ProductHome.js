@@ -70,7 +70,7 @@ function ProductHome() {
 
   return (
         <>
-            <h1 style={{padding: '25px', backgroundColor: '#B2ABBF', margin: 'auto'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Products</h1>
+            <h1 style={{padding: '25px', backgroundColor: '#B2ABBF', margin: 'auto'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Products</h1>
             <Stack direction="horizontal" gap={3} style={{backgroundColor: '#B2ABBF'}}>
                 <ProductContext.Consumer>
                     {({products}) =>
