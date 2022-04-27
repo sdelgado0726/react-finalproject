@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Flower Shaped Fashion Glasses",
+      "description": "Ut lectus arcu bibendum at varius",
+      "color": "Orange",
+      "price": "20",
+      "imageUrl": "https://img.ltwebstatic.com/images3_pi/2021/08/18/16292685389aa9b75da6cac4db8335e67aa98423eb_thumbnail_600x.webp"
+    },
+    {
+      "id": 2,
+      "productName": "Heart Frame Fashion Glasses",
+      "description": "Euismod quis viverra nibh cras pulvinar mattis nunc sed",
+      "color": "Pink",
+      "price": "15",
+      "imageUrl": "https://img.ltwebstatic.com/images3_pi/2022/03/29/16485404391e16a0f33e56236dfbb0dbbdd46d6173_thumbnail_600x.webp"
+    },
+    {
+      "id": 3,
+      "productName": "Cat Eye Tinted Lens Fashion Glasses",
+      "description": "Euismod in pellentesque massa placerat duis ultricies lacus sed turpis",
+      "color": "Purple",
+      "price": 25,
+      "imageUrl": "https://img.ltwebstatic.com/images3_pi/2021/09/06/1630900920c2e1d202d19bdcbfdabb7e098ae2aa5a_thumbnail_600x.webp"
+    },
+    {
+      "id": 4,
+      "productName": "Fruit Design Frame Fashion Glasses",
+      "description": "Nullam vehicula ipsum a arcu. Mattis molestie a iaculis at",
+      "color": "Multicolor",
+      "price": 15,
+      "imageUrl": "https://img.ltwebstatic.com/images3_pi/2022/02/25/164577734699ce3cd3e7487b9dc39dc3d792dd7744_thumbnail_600x.webp"
+    },
+    {
+      "id": 5,
+      "productName": "Geometric Frame Fashion Glasses",
+      "description": "In pellentesque massa placerat duis. Congue eu consequat ac felis",
+      "color": "Black",
+      "price": 30,
+      "imageUrl": "https://img.ltwebstatic.com/images3_pi/2022/03/14/1647250120ae1d729cb8369c0a460659b2fb780182_thumbnail_600x.webp"
+    },
+    {
+      "id": 6,
+      "productName": "Tinted Lens Fashion Glasses",
+      "description": "Nullam vehicula ipsum a arcu. Mattis molestie a iaculis at",
+      "color": "Brown",
+      "price": 30,
+      "imageUrl": "https://img.ltwebstatic.com/images3_pi/2022/03/11/1646989801b8b671e208a5a4dde1a16458218aa1a4_thumbnail_600x.webp"
+    }
+  ]
+}
