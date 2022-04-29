@@ -31,14 +31,16 @@ function ProductDetail() {
         return <div className="w-25 text-center"><Spinner animation="border" /></div>
     }
 
+    
+
     function productDetails() {
         let {id, productName, description, color, price, imageUrl} = product
         return (
-            <div style= {{backgroundColor: '#B2ABBF'}}>
+            <div style={{backgroundColor: '#B2ABBF', paddingTop: '50px', paddingBottom:'80px'}}>
+            <h1 style={{padding: '10px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product Detail</h1>
                 <Row xs={1} md={2} lg={3}>
                     <Col>
-                        <h1 style={{padding: '15px'}}>&nbsp;Product Detail</h1>
-                        <Card  style={{ width: '18rem', padding: '15px', margin: '20px', textAlign: 'left', paddingBottom: '2px', backgroundColor: '#F5F1E3' }}>
+                        <Card  style={{width: '18rem', padding: '15px', margin: 'auto', textAlign: 'left', marginBottom: '8px', marginTop:'0.5px', paddingBottom: '2px', backgroundColor: '#F5F1E3'}}>
                             <Card.Img variant="top" src={imageUrl} className="card-img-top"/>
                             <Card.Body>
                                 <Card.Title>{productName}</Card.Title>

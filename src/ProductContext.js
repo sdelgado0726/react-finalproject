@@ -4,7 +4,8 @@ import axios from "axios"
 export const ProductContext = createContext()
 
 export const ProductProvider = (props) => {
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState([]);
+   let url = "http://localhost:3000/products";
 
     useEffect(() => {
         async function getProducts() {
@@ -48,6 +49,12 @@ export const ProductProvider = (props) => {
         })
     }
 
+    function filterResult(params) {
+        return axios.get(`${url}/?q=${params}`).then(response => {
+            return new Promise(resolve => resolve(response.data))
+        })
+    }
+
     return (
         <ProductContext.Provider
         value={{
@@ -55,7 +62,8 @@ export const ProductProvider = (props) => {
             getProduct,
             deleteProduct,
             addProduct,
-            updateProduct
+            updateProduct,
+            filterResult
         }}
         >
         {props.children}

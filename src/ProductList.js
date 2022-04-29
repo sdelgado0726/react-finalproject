@@ -27,23 +27,9 @@ function ProductList() {
     }
 
     function productGroup(products) {
-
-        // if (products === null) return
-        // return products.map((product) =>
-            
-        // <Card key={product.id} style={{ width: '18rem', padding: '15px', margin: '20px', textAlign: 'left' }}>
-        //     <Card.Img variant="top" src={product.imageUrl} className="card-img-top"/>
-        //     <Card.Body>
-        //         <span><Card.Title>{product.productName}</Card.Title></span>
-        //         <span><Card.Subtitle>${product.price}</Card.Subtitle></span>
-        //         <div className='text-center'>
-        //             <Link to={`/products/${product.id}`} className="btn btn-secondary text me-2">View</Link>
-        //             <Link to={`/products/new/${product.id}/edit`} className="btn btn-primary text me-2">Edit</Link>
-        //             <Button variant="danger" >Delete</Button>
-        //         </div>
-        //     </Card.Body>
-        // </Card>) 
         return (
+            <div style={{backgroundColor: '#B2ABBF', paddingTop: '50px', paddingBottom:'80px'}}>
+
             <Row xs={1} md={2} lg={3} className="g-5 mx-5">
             {products.map((product) => (
                 <Col>
@@ -62,14 +48,15 @@ function ProductList() {
                 </Col>
             ))}
             </Row>
+            </div>
         )
           
     }
 
   return (
         <>
-            <h1 style={{padding: '8px', backgroundColor: '#B2ABBF', margin: 'auto'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Products</h1>
-            <Stack direction="horizontal" gap={3} style={{backgroundColor: '#B2ABBF'}}>
+            <Stack direction="vertical" gap={1} style={{backgroundColor: '#B2ABBF'}}>
+                <h1 style={{padding: '15px', paddingBottom: '5px', marginTop: '20px'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Products</h1>
                 <ProductContext.Consumer>
                     {({products}) =>
                     productGroup(products)
@@ -77,7 +64,6 @@ function ProductList() {
                 </ProductContext.Consumer>
                 <Outlet />
             </Stack>
-
         </>
     
     )

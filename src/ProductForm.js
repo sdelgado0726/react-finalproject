@@ -51,8 +51,8 @@ function ProductForm() {
   
     return (
       <>
-      <h1 style={{padding: '20px', backgroundColor: '#B2ABBF', margin:'auto'}}>&nbsp;&nbsp;&nbsp;&nbsp;Create New A Product</h1>
-      <Form onSubmit={handleSubmit} style={{padding: '55px', paddingLeft: '60px', paddingRight: '60px', backgroundColor: '#B2ABBF'}}>
+      <Form onSubmit={handleSubmit} style={{padding: '60px', paddingLeft: '60px', paddingRight: '60px', backgroundColor: '#B2ABBF'}}>
+        <h1 style={{padding: '0.5px', backgroundColor: '#B2ABBF'}}>Create New A Product</h1><br/>
         <Form.Group className="mb-3" >
           <Form.Label>Product Name</Form.Label>
           <Form.Control type="text" name="productName" value={productName} onChange={handleChange} />
